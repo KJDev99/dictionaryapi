@@ -11,7 +11,6 @@ const search = () => {
   req.onprogress = () => {
     box.innerHTML = `Bunday So'z Mavjud Emas...`
     setTimeout(() => {
-        box.innerHTML = ``
         word.value = ''
     }, 2000);
   };
